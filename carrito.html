@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palermo</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header" id="estorbo">
+        <div class="menu container">
+            <a href="index.html" class="indicex"> <img src="imagen-palermo/logo-blanco.png" class="logo"></a>
+            <input type="checkbox" class="menu-icono" id="menu-icono">
+            <label for="menu-icono">
+             <img src="imagen-palermo/menu-svgrepo-com.svg" class="menu-icono" alt="menu">
+        </label>
+                <nav class="navbar">
+                <div>
+                <ul>
+                    <li><a href="contacto.html">contacto</a></li>
+                    <li><a href="servicios.html">servicios</a></li>
+                    <li><a href="productos.html">productos</a></li>
+                   
+                    
+                </ul>
+            </nav>
+            
+            </div>
+
+    </header>
+
+    <div class="wrapper">
+        <header class="header-mobile">
+            <h2>Stock</h2>
+            <button class="open-menu" id="open-menu">
+                <img src="imagen-palermo/menu-9-svgrepo-com.svg" alt="menu" class="iconox">
+            </button>
+        </header>
+        <aside class="aside-visible">
+            <button class="close-menu" id="close-menu">
+                <img src="imagen-palermo/close-circle-svgrepo-com.svg" class="X">
+            </button>
+            <header class="titulo-menu-izq">
+                <h2>Tu compra</h2>
+            </header>
+            <nav>
+                <ul class="menul">
+                    <li>
+                        <a class="boton-productos boton-volver" href="productos.html">Seguir comprando </a>
+                    </li>
+                    <li> <a class="boton-productos boton-carrito active" href="carrito.html">carrito</a>
+                    </li>
+                        
+                  
+                </ul>
+            </nav>
+            <footer><img src="imagen-palermo/logo-blanco.png" class="marca-de-agua"></footer>
+        </aside>
+        <main class="producto-cont">
+            <h2 class="titulo-principal">Carrito</h2>
+            <div class="contenedor-carrito">
+                <p id="carrito-vacio" class="carrito-vacio">Tu carrito esta vacio </p>
+
+                <div id="carrito-productos" class="carrito-productos disabled">
+
+                   <!--Esto se rellena con JS-->
+                 </div> 
+                 
+                 <div id="carrito-acciones" class="carrito-acciones disabled">
+                    <div class="carrito-acciones-izquierda">
+                     <button id="carrito-acciones-vaciar"  class="carrito-acciones-vaciar">Vaciar carrito</button>   
+                    </div>
+                 <div class="carrito-acciones-derecha">
+                    <div class="carrito-acciones-total">
+                        <p>Total:</p>
+                        <p id="total">10.000</p>
+                    </div>
+                    <button id="carrito-acciones-comprar" class="carrito-acciones-comprar">Comprar ahora</button>
+                    
+                 </div>
+
+                 </div>
+                  
+                 <p id="carrito-comprado" class="carrito-comprado disabled">Muchas Gracias por su compra</p>
+
+
+                        
+                    
+
+                </div>
+                
+            </div>
+
+        </main>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content container">
+    
+            <div class="redes">
+                <h3>Redes</h3>
+                <ul class ="arreglo">
+                    <li><a href="https://www.instagram.com/palermmo.clothes/"> <img src="imagen-palermo/instagram-logo-facebook-2-svgrepo-com.svg" class="logo-red1"></a></li>
+                    <li><a href="https://www.facebook.com/agu.palermo?locale=es_LA"><img src="imagen-palermo/facebook-svgrepo-com.svg" class="logo-red2"></a></li>
+                    <li><a href="#"><img src="imagen-palermo/whatsapp-logo-thin-svgrepo-com.svg" class="logo-red3"></a></li>
+                </ul>
+            </div>
+    
+            <div class="adorno">
+                <img src="imagen-palermo/logo-negro.png">
+            </div>
+    
+            <div class="link">
+                
+                <ul>
+                    <li><a href="servicios.html">servicios</a></li>
+                    <li><a href="productos.html">productos</a></li>
+                     <li><a href="contacto.html">contacto</a></li>
+                </ul>
+            </div>
+            </div>
+
+    </footer>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="menu.js"></script>
+    <script src="carrito.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+ 
+[
+    
+    {
+      "id":"vestido-01",
+      "titulo": "Vestido Ocre ",
+      "imagen": "imagen-palermo/vestido-1.jpg",
+      "categoria": {
+        "nombre": "Vestidos",
+        "id": "vestidos"
+      },
+      "precio": 200
+    },
+    {
+      "id":"vestido-02",
+      "titulo": "Monito con Brillo",
+      "imagen": "imagen-palermo/vestido-2.jpg",
+      "categoria": {
+        "nombre": "Vestidos",
+        "id": "vestidos"
+      },
+      "precio": 200
+    },
+    {
+      "id":"vestido-03",
+      "titulo": "Monito con Lentejuelas",
+      "imagen": "imagen-palermo/vestido-3.jpg",
+      "categoria": {
+        "nombre": "Vestidos",
+        "id": "vestidos"
+      },
+      "precio": 200
+    },
+    
+    {
+      "id":"collar-01",
+      "titulo": "collar fino",
+      "imagen": "imagen-palermo/collar-1.jpg",
+      "categoria": {
+        "nombre": "Accesorios",
+        "id": "accesorios"
+      },
+      "precio": 200
+    },
+    {
+      "id":"collar-02",
+      "titulo": "collar grueso",
+      "imagen": "imagen-palermo/collar-2.jpg",
+      "categoria": {
+        "nombre": "Accesorios",
+        "id": "accesorios"
+      },
+      "precio": 200
+    },
+    {
+      "id":"collar-03",
+      "titulo": "collar medio",
+      "imagen": "imagen-palermo/collar-3.jpg",
+      "categoria": {
+        "nombre": "Accesorios",
+        "id": "accesorios"
+      },
+      "precio": 200
+    }
+  ]

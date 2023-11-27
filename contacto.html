@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palermo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="menu container">
+            <a href="index.html" class="indicex"> <img src="imagen-palermo/logo-blanco.png" class="logo"></a>
+            <input type="checkbox" class="menu-icono" id="menu-icono">
+            <label for="menu-icono">
+             <img src="imagen-palermo/menu-svgrepo-com.svg" class="menu-icono" alt="menu">
+        </label>
+            <nav class="navbar">
+                <div>
+                <ul>
+                    <li><a href="contacto.html">contacto</a></li>
+                    <li><a href="servicios.html">servicios</a></li>
+                    <li><a href="productos.html">productos</a></li>
+                    <li><a href="carrito.html"> <img src="imagen-palermo/trolley-svgrepo-com.svg" class="img-carrito" alt="carrito"></a></li>
+                </ul>
+            </nav>
+            
+            </div>
+
+    </header>
+
+    <main class="inscripcion container">
+        <h1>¿Alguna duda?</h1>
+         <p>Contactate a nosotros, nuestro equipo aclarara tus dudas acerca de algun producto que te interese o quieras mas detalles sobre el. </p>
+         <br>
+        <form action="https://formsubmit.co/tobiaschaya@gmail.com" method="POST" autocomplete="off" id="miFormulario">
+        <div class="c-email">
+
+          <div class="input-group">
+           <h2>Contacto</h2>
+         <input type="text" placeholder="Nombre y apellido" name="name" class="campo" id="nombre" required>
+         
+         <input type="email" placeholder="Correo electronico" name="email" class="campo" id="email" required>
+       
+       <textarea name="message" cols="60" rows="2" placeholder="mensaje" class="campo" id="mensaje" required></textarea>
+
+
+     </div>
+        
+     
+        <input type="submit" value="Enviar" class="btn-1" id="enviar">
+
+        <input type="hidden" name="_next" value="http://127.0.0.1:5500/contacto.html">
+
+        <input type="hidden" name="_captcha" value="false">
+
+      </div>
+      
+      </form>
+
+       </main>
+
+
+
+
+       <footer class="footer">
+        <div class="footer-content container">
+    
+            <div class="redes">
+                <h3>Redes</h3>
+                <ul class ="arreglo">
+                    <li><a href="https://www.instagram.com/palermmo.clothes/"> <img src="imagen-palermo/instagram-logo-facebook-2-svgrepo-com.svg" class="logo-red1"></a></li>
+                    <li><a href="https://www.facebook.com/agu.palermo?locale=es_LA"><img src="imagen-palermo/facebook-svgrepo-com.svg" class="logo-red2"></a></li>
+                    <li><a href="#"><img src="imagen-palermo/whatsapp-logo-thin-svgrepo-com.svg" class="logo-red3"></a></li>
+                </ul>
+            </div>
+    
+            <div class="adorno">
+                <img src="imagen-palermo/logo-negro.png">
+            </div>
+    
+            <div class="link">
+                
+                <ul>
+                    <li><a href="servicios.html">servicios</a></li>
+                    <li><a href="productos.html">productos</a></li>
+                     <li><a href="contacto.html">contacto</a></li>
+                </ul>
+            </div>
+            </div>
+    </footer>
+</body>

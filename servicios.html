@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palermo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="menu container">
+            <a href="index.html" class="indicex"> <img src="imagen-palermo/logo-blanco.png" class="logo"></a>
+            <input type="checkbox" class="menu-icono" id="menu-icono">
+            <label for="menu-icono">
+             <img src="imagen-palermo/menu-svgrepo-com.svg" class="menu-icono" alt="menu">
+        </label>
+            <nav class="navbar">
+                <div>
+                <ul>
+                    <li><a href="contacto.html">contacto</a></li>
+                    <li><a href="servicios.html">servicios</a></li>
+                    <li><a href="productos.html">productos</a></li>
+                    <li><a href="carrito.html"> <img src="imagen-palermo/trolley-svgrepo-com.svg" class="img-carrito" alt="carrito"></a></li>
+                </ul>
+            </nav>
+            
+            </div>
+
+    </header>
+
+    <main class="diseño-per container">
+        <h1>¿Qué tengo que hacer?</h1>
+        <div class="diseño-info">
+            
+            <div class="diseño-texto">
+        
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus, repellendus eaque ullam consequatur magnam placeat assumenda, illo aliquid, eum dicta molestias enim deleniti iusto consequuntur? Sequi distinctio temporibus deleniti!
+        </p>
+    </div>
+        </div>
+        
+        <div class="form-total">
+            <h2>Completa aqui los datos</h2>
+            <form action="https://formsubmit.co/tobiaschaya@gmail.com" method="POST" autocomplete="off" id="miFormulario">
+
+                <div class="Form-obligatorio">
+
+                <!-- <label for="nombre">Nombre y Apellido (obligatorio):</label> -->
+                <input type="text" name="nombre" id="nombre" required placeholder="Nombre y Apellido" class="campo">
+
+                <!-- <label for="dia_encuentro">Día de Encuentro (obligatorio):</label> -->
+                <input type="date" name="dia_encuentro" id="dia_encuentro" required placeholder="Fecha de Encuentro" class="campo">
+
+                <!-- <label for="horario">Horario (obligatorio):</label> -->
+                <input type="time" name="horario" id="horario" min="10:00" max="18:00" required placeholder="Horario" class="campo">
+
+                <!-- <label for="correo">Correo Electrónico (obligatorio):</label> -->
+                <input type="email" name="correo" id="correo" required placeholder="Correo Electrónico" class="campo">
+
+                <!-- <label for="celular">Número de Celular (obligatorio):</label> -->
+                <input type="tel" name="celular" id="celular" required inputmode="numeric" pattern="[0-9]{10}" placeholder="Número de Celular" class="campo">
+
+                
+                <!-- <label for="prenda">opcional</label> -->
+                <select name="prenda" id="prenda" required placeholder="tipo de prenda" class="campo">
+                    <option value="" disabled selected hidden>Prenda, Selecciona una opción</option>
+                    <option value="traje">Traje</option>
+                    <option value="vestido">Vestido</option>
+                    <option value="prenda_casual">Prenda Casual</option>
+                    <option value="lenceria">Lencería</option>
+                    <option value="arreglos">Arreglos</option>
+
+                </select>
+
+            </div>
+
+                <div class="Form-opcional">
+
+                    <h3>opcional</h3> <br>
+
+
+                <!-- <label for="medidas">opcional:</label> -->
+                <textarea name="medidas" id="medidas" rows="4" cols="60" placeholder="medidas" class="campo"></textarea>
+
+                <!-- <label for="colores">Texturas y Colores (opcional):</label> -->
+                <input type="text" name="colores" id="colores" placeholder="Color y Textura" class="campo">
+
+            </div>
+
+                <input type="submit" value="Enviar" class="btn-1">
+
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/servicios.html">
+
+                <input type="hidden" name="_captcha" value="false">
+
+            
+            </form>
+
+        </div>
+     
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content container">
+    
+            <div class="redes">
+                <h3>Redes</h3>
+                <ul class ="arreglo">
+                    <li><a href="https://www.instagram.com/palermmo.clothes/"> <img src="imagen-palermo/instagram-logo-facebook-2-svgrepo-com.svg" class="logo-red1"></a></li>
+                    <li><a href="https://www.facebook.com/agu.palermo?locale=es_LA"><img src="imagen-palermo/facebook-svgrepo-com.svg" class="logo-red2"></a></li>
+                    <li><a href="#"><img src="imagen-palermo/whatsapp-logo-thin-svgrepo-com.svg" class="logo-red3"></a></li>
+                </ul>
+            </div>
+    
+            <div class="adorno">
+                <img src="imagen-palermo/logo-negro.png">
+            </div>
+    
+            <div class="link">
+                
+                <ul>
+                    <li><a href="servicios.html">servicios</a></li>
+                    <li><a href="productos.html">productos</a></li>
+                     <li><a href="contacto.html">contacto</a></li>
+                </ul>
+            </div>
+            </div>
+    </footer>
+
+</body>

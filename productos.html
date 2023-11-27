@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palermo</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header" id="estorbo">
+        <div class="menu container">
+            <a href="index.html" class="indicex"> <img src="imagen-palermo/logo-blanco.png" class="logo"></a>
+            <input type="checkbox" class="menu-icono" id="menu-icono">
+            <label for="menu-icono">
+             <img src="imagen-palermo/menu-svgrepo-com.svg" class="menu-icono" alt="menu">
+        </label>
+            <nav class="navbar">
+                <div>
+                <ul>
+                    <li><a href="contacto.html">contacto</a></li>
+                    <li><a href="servicios.html">servicios</a></li>
+                    <li><a href="productos.html">productos</a></li>
+                    <li><a href="carrito.html"> <img src="imagen-palermo/trolley-svgrepo-com.svg" class="img-carrito" alt="carrito"></a></li>
+                </ul>
+            </nav>
+            
+            </div>
+
+    </header>
+
+        <div class="wrapper">
+            <header class="header-mobile">
+                <h2>Stock</h2>
+                <button class="open-menu" id="open-menu">
+                    <img src="imagen-palermo/menu-9-svgrepo-com.svg" alt="menu" class="iconox">
+                </button>
+            </header>
+            
+            <aside >
+                <button class="close-menu" id="close-menu">
+                    <img src="imagen-palermo/close-circle-svgrepo-com.svg" class="X">
+                </button>
+                <header class="titulo-menu-izq">
+                    <h2>Stock</h2>
+                </header>
+                <nav>
+                    <ul class="menul">
+                        <li>
+                            <button id="todos" class="boton-productos boton-categoria active">Todos los productos</button>
+                        </li>
+                        <li>
+                            <button id="vestidos" class="boton-productos boton-categoria ">Vestidos</button>
+                        </li>
+                        <li>
+                             <button id="accesorios" class="boton-productos boton-categoria">Accesorios</button>
+                        </li>
+                        <li>
+                             <button id="oferta" class="boton-productos boton-categoria">ofertas especiales</button>
+                        </li>
+                        <li>
+                            <a class="boton-productos boton-carrito" href="carrito.html">Carrito <span id="numerito" class="numerito">0</span></a>
+                        </li>
+                    </ul>
+                </nav>
+                <footer><img src=""></footer>
+            </aside>
+            <main class="producto-cont">
+                <h2 id="titulo-principal" class="titulo-principal">Todos los productos</h2>
+                <div id="contenedor-productos" class="contenedor-productos">
+                    
+                    <!-- Esto se va a rellenar con JS-->
+                    
+                </div>
+                
+            </main>
+        </div>
+
+    <footer class="footer">
+        <div class="footer-content container">
+    
+            <div class="redes">
+                <h3>Redes</h3>
+                <ul class ="arreglo">
+                    <li><a href="https://www.instagram.com/palermmo.clothes/"> <img src="imagen-palermo/instagram-logo-facebook-2-svgrepo-com.svg" class="logo-red1"></a></li>
+                    <li><a href="https://www.facebook.com/agu.palermo?locale=es_LA"><img src="imagen-palermo/facebook-svgrepo-com.svg" class="logo-red2"></a></li>
+                    <li><a href="#"><img src="imagen-palermo/whatsapp-logo-thin-svgrepo-com.svg" class="logo-red3"></a></li>
+                </ul>
+            </div>
+    
+            <div class="adorno">
+              <a href="index.html"><img src="imagen-palermo/logo-negro.png"></a>
+            </div>
+    
+            <div class="link">
+                
+                <ul>
+                    <li><a href="servicios.html">servicios</a></li>
+                    <li><a href="productos.html">productos</a></li>
+                     <li><a href="contacto.html">contacto</a></li>
+                </ul>
+            </div>
+            </div>
+    </footer>
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="productos.js"></script>
+    <script src="menu.js"></script>
+</body>
+</html>
