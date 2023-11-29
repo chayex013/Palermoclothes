@@ -109,7 +109,7 @@ function actualizarBotonesEliminar() {
       text: "Se van a borrar todos tus productos!",
       icon: "question",
       showCancelButton: true,
-      confirmButtonColor: "#3085d6",
+      confirmButtonColor: "#2cd302",
       cancelButtonColor: "#d33",
       cancelButtonText: "Cancelar",
       confirmButtonText: "Si, eliminar"

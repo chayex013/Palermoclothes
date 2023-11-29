@@ -35,7 +35,7 @@
             <div class="diseño-texto">
         
         <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus, repellendus eaque ullam consequatur magnam placeat assumenda, illo aliquid, eum dicta molestias enim deleniti iusto consequuntur? Sequi distinctio temporibus deleniti!
+            Completa este formulario para que pueda leer lo que deseas y pueda ir trabajando en tu diseño, es importante que completes los campos obligatorios ya que con eso nos reuniremos y nos mantendremos en contacto.
         </p>
     </div>
         </div>
@@ -47,22 +47,28 @@
                 <div class="Form-obligatorio">
 
                 <!-- <label for="nombre">Nombre y Apellido (obligatorio):</label> -->
+                <h6>Diseño para..</h6>
                 <input type="text" name="nombre" id="nombre" required placeholder="Nombre y Apellido" class="campo">
 
                 <!-- <label for="dia_encuentro">Día de Encuentro (obligatorio):</label> -->
-                <input type="date" name="dia_encuentro" id="dia_encuentro" required placeholder="Fecha de Encuentro" class="campo">
+                <h6>Fecha de Encuentro</h6>
+                <input type="date" name="dia_encuentro" id="dia_encuentro" required placeholder="Fecha de Encuentro"  class="campo">
 
                 <!-- <label for="horario">Horario (obligatorio):</label> -->
+                <h6>Hora de reunion (desde 10AM a 18PM)</h6>
                 <input type="time" name="horario" id="horario" min="10:00" max="18:00" required placeholder="Horario" class="campo">
 
                 <!-- <label for="correo">Correo Electrónico (obligatorio):</label> -->
+                <h6>E-mail</h6>
                 <input type="email" name="correo" id="correo" required placeholder="Correo Electrónico" class="campo">
 
                 <!-- <label for="celular">Número de Celular (obligatorio):</label> -->
+                <h6>Tu Número</h6>
                 <input type="tel" name="celular" id="celular" required inputmode="numeric" pattern="[0-9]{10}" placeholder="Número de Celular" class="campo">
 
                 
                 <!-- <label for="prenda">opcional</label> -->
+                <h6>quiero que me diseñes un/a</h6>
                 <select name="prenda" id="prenda" required placeholder="tipo de prenda" class="campo">
                     <option value="" disabled selected hidden>Prenda, Selecciona una opción</option>
                     <option value="traje">Traje</option>
