@@ -383,7 +383,7 @@ img {
 
 .redes {
    display: inline-block;
-   justify-content: space-between;
+   
 }
 
 .redes h3{
@@ -411,6 +411,7 @@ img {
 
 .arreglo {
     margin-top: 5px;
+    display: flex;
 }
 
 
